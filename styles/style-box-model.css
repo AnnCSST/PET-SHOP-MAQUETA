@@ -1,0 +1,28 @@
+h1 {
+   border-bottom-color: #007;
+   border-bottom-style: solid;
+   border-bottom-width: 2px;
+}
+
+h2 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #AAA;
+}
+
+
+
+.Rojito {
+    border-color: #F00;
+    border-top-width: 2px;
+    border-top-style: dotted;
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+
+}
+
+.Verde {
+    border-color:#0F0;
+    border-width: 2px;
+    border-style: dashed;
+}
