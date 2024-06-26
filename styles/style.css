@@ -1,0 +1,31 @@
+div {
+    background-color: yellow;
+}
+
+.card {
+    color:royalblue;
+    background-color: burlywood;
+}
+
+.card1 {
+    color: chartreuse;
+    background-color: bisque;
+}
+
+.card2 {
+    color: blueviolet;
+    background-color: chocolate;
+}
+
+#eliminar {
+    background-color: brown;
+}
+
+a[href="https://platzi.com"] {
+    background-color: brown;
+}
+
+/*Color Universal */
+* {
+    background-color: wheat;
+}
