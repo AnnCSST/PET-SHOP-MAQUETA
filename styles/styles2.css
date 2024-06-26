@@ -1,0 +1,19 @@
+/* Cominador descendiente*/
+.container ul li {
+    color: red;
+}
+
+/* Combinador hijo directo */
+.container > p {
+    color: blue;
+}
+
+/* Combinador de elemento adyacente */
+div + p {
+    color: pink;
+}
+
+/* Desafio combinador general de hermanos */
+.container > div ~ p {
+    color: green; 
+  }
