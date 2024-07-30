@@ -1,0 +1,78 @@
+.content-main {
+    height: 1000px;
+    width: 1900px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    align-content: flex-end;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: 'Lato', sans-serif;
+    width: 550px;
+  }
+  
+  .container {
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+  }
+
+ .Caja {
+    background-color: rgb(255, 244, 223);
+    height: 50px;
+    width: 70px;
+
+ }
+
+ .Cajas {
+    background-color: rgb(248, 194, 188);
+    height: 50px;
+    width: 70px;    
+ }
+
+ .Cajita {
+    background-color: rgb(188, 228, 255);
+    height: 50px;
+    width: 70px;
+ }
+
+#Caja1 { display:flex; justify-content: flex-start;}
+
+#Caja2 {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+#Caja3 {display: flex;
+        align-items: end;
+}
+
+#Caja4 { display:flex; justify-content: center;}
+
+#Caja5 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#Caja6 {display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#Caja7 { display:flex; justify-content: flex-end;}
+
+#Caja8 {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+#Caja9 {display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
